@@ -8,22 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		E05A028327E660140019AB60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05A028227E660140019AB60 /* AppDelegate.swift */; };
-		E05A028527E660140019AB60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05A028427E660140019AB60 /* SceneDelegate.swift */; };
-		E05A028727E660140019AB60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05A028627E660140019AB60 /* ViewController.swift */; };
-		E05A028A27E660140019AB60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E05A028827E660140019AB60 /* Main.storyboard */; };
+		E05A028727E660140019AB60 /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05A028627E660140019AB60 /* OnboardingViewController.swift */; };
+		E05A028A27E660140019AB60 /* OnboardingViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E05A028827E660140019AB60 /* OnboardingViewController.storyboard */; };
 		E05A028C27E660160019AB60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E05A028B27E660160019AB60 /* Assets.xcassets */; };
 		E05A028F27E660160019AB60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E05A028D27E660160019AB60 /* LaunchScreen.storyboard */; };
+		E05A02A127E665490019AB60 /* DAViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05A02A027E665490019AB60 /* DAViewController.swift */; };
+		E05A02A327E6656E0019AB60 /* DARouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05A02A227E6656E0019AB60 /* DARouter.swift */; };
+		E05A02A527E6657D0019AB60 /* DAPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05A02A427E6657D0019AB60 /* DAPresenter.swift */; };
+		E05A02A727E6658A0019AB60 /* DAInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05A02A627E6658A0019AB60 /* DAInteractor.swift */; };
+		E05A02A927E665BF0019AB60 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05A02A827E665BF0019AB60 /* Interactor.swift */; };
+		E05A02AB27E665D90019AB60 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05A02AA27E665D90019AB60 /* Presenter.swift */; };
+		E05A02AD27E665F20019AB60 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05A02AC27E665F20019AB60 /* Router.swift */; };
+		E05A02AF27E6660E0019AB60 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05A02AE27E6660E0019AB60 /* View.swift */; };
+		E05A02B427E66AF00019AB60 /* DAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05A02B327E66AF00019AB60 /* DAView.swift */; };
+		E05A02BA27E670920019AB60 /* OnboardingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05A02B927E670920019AB60 /* OnboardingInteractor.swift */; };
+		E05A02BC27E6709C0019AB60 /* OnboardingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05A02BB27E6709C0019AB60 /* OnboardingPresenter.swift */; };
+		E05A02BE27E670AE0019AB60 /* OnboardingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05A02BD27E670AE0019AB60 /* OnboardingRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E05A027F27E660140019AB60 /* DatingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E05A028227E660140019AB60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E05A028427E660140019AB60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E05A028627E660140019AB60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E05A028927E660140019AB60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E05A028627E660140019AB60 /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		E05A028927E660140019AB60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/OnboardingViewController.storyboard; sourceTree = "<group>"; };
 		E05A028B27E660160019AB60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E05A028E27E660160019AB60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E05A029027E660160019AB60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E05A02A027E665490019AB60 /* DAViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAViewController.swift; sourceTree = "<group>"; };
+		E05A02A227E6656E0019AB60 /* DARouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DARouter.swift; sourceTree = "<group>"; };
+		E05A02A427E6657D0019AB60 /* DAPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAPresenter.swift; sourceTree = "<group>"; };
+		E05A02A627E6658A0019AB60 /* DAInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAInteractor.swift; sourceTree = "<group>"; };
+		E05A02A827E665BF0019AB60 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		E05A02AA27E665D90019AB60 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		E05A02AC27E665F20019AB60 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		E05A02AE27E6660E0019AB60 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		E05A02B327E66AF00019AB60 /* DAView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAView.swift; sourceTree = "<group>"; };
+		E05A02B927E670920019AB60 /* OnboardingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingInteractor.swift; sourceTree = "<group>"; };
+		E05A02BB27E6709C0019AB60 /* OnboardingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPresenter.swift; sourceTree = "<group>"; };
+		E05A02BD27E670AE0019AB60 /* OnboardingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +78,146 @@
 		E05A028127E660140019AB60 /* DatingApp */ = {
 			isa = PBXGroup;
 			children = (
-				E05A028227E660140019AB60 /* AppDelegate.swift */,
-				E05A028427E660140019AB60 /* SceneDelegate.swift */,
-				E05A028627E660140019AB60 /* ViewController.swift */,
-				E05A028827E660140019AB60 /* Main.storyboard */,
+				E05A029627E6626E0019AB60 /* Application */,
+				E05A029B27E664BE0019AB60 /* Presentation */,
+				E05A029727E6627B0019AB60 /* Screens */,
 				E05A028B27E660160019AB60 /* Assets.xcassets */,
-				E05A028D27E660160019AB60 /* LaunchScreen.storyboard */,
 				E05A029027E660160019AB60 /* Info.plist */,
 			);
 			path = DatingApp;
+			sourceTree = "<group>";
+		};
+		E05A029627E6626E0019AB60 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				E05A028227E660140019AB60 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		E05A029727E6627B0019AB60 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				E05A029A27E662C00019AB60 /* Launch */,
+				E05A029827E662880019AB60 /* Onboarding */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		E05A029827E662880019AB60 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				E05A02B827E6702F0019AB60 /* Routers */,
+				E05A02B727E6702B0019AB60 /* Presenters */,
+				E05A02B627E670230019AB60 /* Interactors */,
+				E05A029927E662990019AB60 /* View */,
+				E05A028827E660140019AB60 /* OnboardingViewController.storyboard */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		E05A029927E662990019AB60 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E05A028627E660140019AB60 /* OnboardingViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E05A029A27E662C00019AB60 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				E05A028D27E660160019AB60 /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		E05A029B27E664BE0019AB60 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				E05A02C527E685940019AB60 /* Controls */,
+				E05A02C427E6857D0019AB60 /* Viper */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		E05A029C27E664CE0019AB60 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E05A02B327E66AF00019AB60 /* DAView.swift */,
+				E05A02A027E665490019AB60 /* DAViewController.swift */,
+				E05A02AE27E6660E0019AB60 /* View.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E05A029D27E664D50019AB60 /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				E05A02A627E6658A0019AB60 /* DAInteractor.swift */,
+				E05A02A827E665BF0019AB60 /* Interactor.swift */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		E05A029E27E664DB0019AB60 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				E05A02A427E6657D0019AB60 /* DAPresenter.swift */,
+				E05A02AA27E665D90019AB60 /* Presenter.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		E05A029F27E664E30019AB60 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				E05A02A227E6656E0019AB60 /* DARouter.swift */,
+				E05A02AC27E665F20019AB60 /* Router.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		E05A02B627E670230019AB60 /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				E05A02B927E670920019AB60 /* OnboardingInteractor.swift */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		E05A02B727E6702B0019AB60 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				E05A02BB27E6709C0019AB60 /* OnboardingPresenter.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		E05A02B827E6702F0019AB60 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				E05A02BD27E670AE0019AB60 /* OnboardingRouter.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		E05A02C427E6857D0019AB60 /* Viper */ = {
+			isa = PBXGroup;
+			children = (
+				E05A029D27E664D50019AB60 /* Interactors */,
+				E05A029E27E664DB0019AB60 /* Presenters */,
+				E05A029F27E664E30019AB60 /* Routers */,
+				E05A029C27E664CE0019AB60 /* Views */,
+			);
+			path = Viper;
+			sourceTree = "<group>";
+		};
+		E05A02C527E685940019AB60 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controls;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +280,7 @@
 			files = (
 				E05A028F27E660160019AB60 /* LaunchScreen.storyboard in Resources */,
 				E05A028C27E660160019AB60 /* Assets.xcassets in Resources */,
-				E05A028A27E660140019AB60 /* Main.storyboard in Resources */,
+				E05A028A27E660140019AB60 /* OnboardingViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,21 +291,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E05A028727E660140019AB60 /* ViewController.swift in Sources */,
+				E05A02A527E6657D0019AB60 /* DAPresenter.swift in Sources */,
+				E05A02A127E665490019AB60 /* DAViewController.swift in Sources */,
+				E05A02AF27E6660E0019AB60 /* View.swift in Sources */,
+				E05A02AB27E665D90019AB60 /* Presenter.swift in Sources */,
+				E05A028727E660140019AB60 /* OnboardingViewController.swift in Sources */,
+				E05A02AD27E665F20019AB60 /* Router.swift in Sources */,
+				E05A02A727E6658A0019AB60 /* DAInteractor.swift in Sources */,
 				E05A028327E660140019AB60 /* AppDelegate.swift in Sources */,
-				E05A028527E660140019AB60 /* SceneDelegate.swift in Sources */,
+				E05A02A927E665BF0019AB60 /* Interactor.swift in Sources */,
+				E05A02BE27E670AE0019AB60 /* OnboardingRouter.swift in Sources */,
+				E05A02A327E6656E0019AB60 /* DARouter.swift in Sources */,
+				E05A02BC27E6709C0019AB60 /* OnboardingPresenter.swift in Sources */,
+				E05A02B427E66AF00019AB60 /* DAView.swift in Sources */,
+				E05A02BA27E670920019AB60 /* OnboardingInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E05A028827E660140019AB60 /* Main.storyboard */ = {
+		E05A028827E660140019AB60 /* OnboardingViewController.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E05A028927E660140019AB60 /* Base */,
 			);
-			name = Main.storyboard;
+			name = OnboardingViewController.storyboard;
 			sourceTree = "<group>";
 		};
 		E05A028D27E660160019AB60 /* LaunchScreen.storyboard */ = {
@@ -287,14 +451,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9QPW8A5WHT;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DatingApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -304,6 +468,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hasanoztunc.DatingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,14 +480,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9QPW8A5WHT;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DatingApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -332,6 +497,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hasanoztunc.DatingApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
